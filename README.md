@@ -26,6 +26,6 @@ In particular the option `fail_under = 100.0` states that testing will be consid
 
 ### Rerun script
 
-You can configure (or modify) the rerun script as you wish. It's just part of our code now. It is called from `watch.sh`, and the code is in `rerun.sh`.
+You can configure (or modify) the rerun script as you wish. It's based on [this](https://gist.github.com/rubencaro/633cd90065d399d5fe1b56e46440d2bb) but it's just part of our code now. It is called from `watch.sh`, and the code is in `rerun.sh`.
 
 Interesting parts may be the `exclude` regular expression for files to be excluded from monitoring, and the `--verbose` option to see more details about the monitoring process itself.
